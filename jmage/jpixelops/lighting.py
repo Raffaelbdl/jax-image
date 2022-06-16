@@ -2,7 +2,7 @@ from typing import Optional
 
 import jax.numpy as jnp
 
-from jpixelops._src.utils import normalize_image
+from jmage.jpixelops.utils import normalize_image
 
 
 def gamma_process(

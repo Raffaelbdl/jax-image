@@ -10,7 +10,7 @@ import jax.lax as lax
 import jax.nn as nn
 import jax.numpy as jnp
 
-from jconvops._src.utils import normalize_kernel, normalize_iterable
+from jconvops.utils import normalize_kernel, normalize_iterable
 
 
 def in_filter2d(

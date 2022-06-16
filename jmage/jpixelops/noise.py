@@ -2,7 +2,7 @@ import jax.numpy as jnp
 import jax.random as jrng
 from jax._src.prng import PRNGKeyArray
 
-from jpixelops._src.utils import normalize_image
+from jmage.jpixelops.utils import normalize_image
 
 
 def normal_noise_process(
